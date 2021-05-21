@@ -1,0 +1,5 @@
+region            = "us-east-1"
+availability_zone = "us-east-1a"
+name_prefix       = "terraform"
+vpc_cidr          = "10.0.0.0/16"
+subnet_cidr       = "10.0.0.0/24"
