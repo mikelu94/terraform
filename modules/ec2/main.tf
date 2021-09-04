@@ -38,7 +38,6 @@ module "ec2_instance" {
     source = "terraform-aws-modules/ec2-instance/aws"
 
     name           = "${var.name_prefix}-ec2" 
-    instance_count = 1
 
     ami                    = data.aws_ami.latest_ami.id
     instance_type          = "t2.micro"
